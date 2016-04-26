@@ -4,7 +4,7 @@
 #### Introduction to Programming Nanodegree | Udacity
 
 
-##### Legal
+#### Legal
 This is an open-source project that I've created for the purpose of self-
 education. As a result, I'm applying the open-ended MIT License as below:
 
@@ -29,7 +29,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-##### Requirements
+#### Requirements
 * This program was built using Python 2.7.10.
 * This program manipulates relational databases using PostgreSQL.
 * This program requires a virtual environment to run. I've used Vagrant. If
@@ -43,7 +43,7 @@ fullstack-nanodegree-vm](https://github.com/udacity/fullstack-nanodegree-vm).
 (https://github.com/koopsykoopsy/swisstournament).
 
 
-#### Files and Libraries
+### Files and Libraries
 Apart from this README file, there are three critical files used here:
 * **tournament.sql:** sets up the database schema
 * **tournament.py:** does the heavy work of manipulating the database to set up
@@ -59,7 +59,7 @@ abstracting the connection to the database
 * **random:** helps generate random numbers
 
 
-##### Running the Program
+### Running the Program
 
 **FIRST**
 As explained above, we'll be using Vagrant. Assuming you've installed Vagrant
