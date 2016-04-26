@@ -1,6 +1,5 @@
 
--- Cascade database drop used to remove all children
-DROP DATABASE IF EXISTS tournament CASCADE;
+DROP DATABASE IF EXISTS tournament;
 CREATE DATABASE tournament;
 
 \c tournament;
@@ -10,13 +9,10 @@ DROP TABLE IF EXISTS players CASCADE;
 CREATE TABLE players
 (
 id serial PRIMARY KEY,
-name varchar(255),
-wins integer,
-matches integer
+name varchar(255)
 );
 
 
--- Note foreign keys within matches that reference players
 DROP TABLE IF EXISTS matches CASCADE;
 CREATE TABLE matches
 (
